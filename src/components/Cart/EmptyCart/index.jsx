@@ -8,7 +8,7 @@ const EmptyCart = () => {
     <div className='emptyCart'>
       
       <h1>Your cart is empty...</h1>
-      <button onClick={() => navigate('/home')}>
+      <button onClick={() => navigate('/')}>
         <i className='fas fa-long-arrow-alt-left'></i> Shop Now
       </button>
     </div>
